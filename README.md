@@ -38,6 +38,6 @@ It is all there in concise format, so it should be easy for noobs to
 understand/test/hack/mod for your next BBB bare metal project requiring
 a stand-alone control system.  
 
-Get involved     www.baremetal.tech     d7@hushmail.com
+Get involved     www.baremetal.tech
 
 LEGAL NOTICE:  This is abandoned software.  It does not work whatsoever.  

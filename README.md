@@ -14,24 +14,24 @@ Includes periperal drivers:
   UART
   GPIO
 
-Utilizes ported starter ware drivers and Elm-Chan FAT32 middleware
-User console interface on UART0 for basic file manipulation
-User application and middleware runs in SYS mode
-Peripheral work handled by ISRs running in IRQ mode
-No IRQ prioritizing, masking or queuing, minimal mode switching
-As a result, ISRs are very lean and small
-Supports full FAT32 filesystem functionality (DOS style filenames)
-Entire executable image size < 32k bytes !
+Utilizes ported starter ware drivers and Elm-Chan FAT32 middleware. 
+User console interface on UART0 for basic file manipulation. 
+User application and middleware runs in SYS mode. 
+Peripheral work handled by ISRs running in IRQ mode. 
+No IRQ prioritizing, masking or queuing, minimal mode switching. 
+As a result, ISRs are very lean and small. 
+Supports full FAT32 filesystem functionality (DOS style filenames). 
+Entire executable image size < 32k bytes ! 
 
 Use the main program, C middleware and Assembly drivers as a skeleton 
 for your application and strip out/add on whatever you need freely, 
 without restriction.  
 
-Makefile & loadscript provided for GCC in Linux and Windows  
+Makefile & loadscript provided for GCC in Linux and Windows.  
 It now uses UART and MMC booting.  XDS100V2 jtag to load programs 
-should still work.  Mod the Makefile as you prefer
+should still work.  Mod the Makefile as you prefer.
 
-Most everything is fully detangled
+Most everything is fully detangled.
 The rest will happen with the next release of mother (TCP is coming!)
 
 It is all there in concise format, so it should be easy for noobs to
